@@ -10,4 +10,7 @@
     <option name="FONT_FAMILY" value="Monaco" />
     <option name="LINE_SPACING" value="1.1" />
   </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  </component>
 </application>
