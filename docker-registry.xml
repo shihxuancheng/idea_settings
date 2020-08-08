@@ -5,5 +5,10 @@
       <option name="name" value="Docker Registry" />
       <option name="username" value="shihxuancheng" />
     </DockerRegistry>
+    <DockerRegistry email="gradle@wanhai.com">
+      <option name="address" value="khhwtml02t.wanhai.com:8182" />
+      <option name="name" value="tml docker registry" />
+      <option name="username" value="gradle" />
+    </DockerRegistry>
   </component>
 </application>
