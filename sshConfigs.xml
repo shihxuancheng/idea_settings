@@ -1,0 +1,9 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="iot.richard-shih.idv.tw" id="27673ea7-f996-493b-8c9c-933d6c38c186" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="RasberryPi4" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="RasberryPi4" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>

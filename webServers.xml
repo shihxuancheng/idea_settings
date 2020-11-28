@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1a018f44-b4bc-4ab2-a4a4-7bfa1d88674f" name="RasperryPi4">
+        <fileTransfer accessType="SFTP" host="iot.richard-shih.idv.tw" port="22" sshConfigId="27673ea7-f996-493b-8c9c-933d6c38c186" sshConfig="RasberryPi4" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
