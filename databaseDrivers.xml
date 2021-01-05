@@ -6,6 +6,12 @@
     <driver id="clickhouse">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="couchbase_query">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="db2.11">
+      <option name="auto-sync" value="false" />
+    </driver>
     <driver id="db2">
       <option name="auto-sync" value="false" />
     </driver>
@@ -13,11 +19,13 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="derby.embedded">
-      <artifact id="Apache Derby" name="Apache Derby" use="true" version="10.14.1.0" />
+      <artifact id="Apache Derby" name="Apache Derby" use="true" version="10.15.1.3" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
       <option name="send-app-info" value="true" />
       <option name="schema-control" value="MANUAL" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
     </driver>
     <driver id="derby.remote">
       <artifact id="Apache Derby" name="Apache Derby" use="true" version="10.14.1.0" />
@@ -73,6 +81,10 @@
     </driver>
     <driver id="mysql_aurora">
       <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="oracle.19">
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="false" />
     </driver>
     <driver id="oracle">
       <artifact id="Oracle" name="Oracle" use="true" version="12.2.0.1" />
